@@ -38,6 +38,11 @@
 a.contact-social {
   font-size: 25px;
   border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
 }
 
 .contact-box h2 {
