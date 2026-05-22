@@ -83,8 +83,7 @@ A single-page, interactive 3D portfolio showcasing the author's profile, skills,
 - Phone: +91 8331928125
 - Location: Hyderabad, India
 - Education: B.Tech in Computer Science (Data Science), Lords Institute of Engineering and Technology — CGPA: 8.7 / 10 (Graduation: Jun 2026)
-- Repository: akashrmalhotra/3d-portfolio
-- Live site: https://akashrmalhotra.netlify.app/
+
 
 ---
 
