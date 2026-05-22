@@ -24,12 +24,12 @@ export function initialFX() {
     { opacity: 0, y: 80, filter: "blur(5px)" },
     {
       opacity: 1,
-      duration: 1.2,
+      duration: 0.6,
       filter: "blur(0px)",
       ease: "power3.inOut",
       y: 0,
-      stagger: 0.025,
-      delay: 0.3,
+      stagger: 0.01,
+      delay: 0.1,
     }
   );
 
@@ -41,12 +41,12 @@ export function initialFX() {
     { opacity: 0, y: 80, filter: "blur(5px)" },
     {
       opacity: 1,
-      duration: 1.2,
+      duration: 0.6,
       filter: "blur(0px)",
       ease: "power3.inOut",
       y: 0,
-      stagger: 0.025,
-      delay: 0.3,
+      stagger: 0.01,
+      delay: 0.1,
     }
   );
 
@@ -55,10 +55,10 @@ export function initialFX() {
     { opacity: 0, y: 30 },
     {
       opacity: 1,
-      duration: 1.2,
+      duration: 0.6,
       ease: "power1.inOut",
       y: 0,
-      delay: 0.8,
+      delay: 0.4,
     }
   );
   gsap.fromTo(
@@ -66,7 +66,7 @@ export function initialFX() {
     { opacity: 0 },
     {
       opacity: 1,
-      duration: 1.2,
+      duration: 0.6,
       ease: "power1.inOut",
       delay: 0.1,
     }
@@ -82,7 +82,7 @@ export function initialFX() {
 
 function LoopText(Text1: SplitText, Text2: SplitText) {
   var tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
-  const delay = 4;
+  const delay = 2;
   const delay2 = delay * 2 + 1;
 
   tl.fromTo(
@@ -90,10 +90,10 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
     { opacity: 0, y: 80 },
     {
       opacity: 1,
-      duration: 1.2,
+      duration: 0.6,
       ease: "power3.inOut",
       y: 0,
-      stagger: 0.1,
+      stagger: 0.04,
       delay: delay,
     },
     0
@@ -102,10 +102,10 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
       Text1.chars,
       { y: 80 },
       {
-        duration: 1.2,
+        duration: 0.6,
         ease: "power3.inOut",
         y: 0,
-        stagger: 0.1,
+        stagger: 0.04,
         delay: delay2,
       },
       1
@@ -115,9 +115,9 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
       { y: 0 },
       {
         y: -80,
-        duration: 1.2,
+        duration: 0.6,
         ease: "power3.inOut",
-        stagger: 0.1,
+        stagger: 0.04,
         delay: delay,
       },
       0
@@ -126,9 +126,9 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
       Text2.chars,
       {
         y: -80,
-        duration: 1.2,
+        duration: 0.6,
         ease: "power3.inOut",
-        stagger: 0.1,
+        stagger: 0.04,
         delay: delay2,
       },
       1
